@@ -162,12 +162,16 @@ footer {
     font-size: 12px;
   }
 
+  section:first-of-type {
+    height: 100%;
+  }
+
   .about-me {
     position: relative;
     top: inherit;
     left: inherit;
     transform: none;
-    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 
   .about-me h2,
@@ -180,10 +184,11 @@ footer {
 
   .about-me p {
     margin-bottom: 1rem;
+    font-size: 1.5rem;
   }
 
   .contact {
-    height: 30vh;
+    height: 200px;
   }
 
   .social {
