@@ -174,11 +174,15 @@ footer {
   }
 
   .about-me p {
-    margin-bottom: 0;
+    margin-bottom: 1rem;
   }
 
   .social ul li {
     display: block;
     margin: 1.2rem 0.3rem;
+  }
+
+  .contact {
+    padding-bottom: 3rem;
   }
 }
