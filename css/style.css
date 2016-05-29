@@ -151,6 +151,10 @@ footer {
   font-size: 1.2rem;
 }
 
+.social-mobile {
+  display: none;
+}
+
 /* MEDIA QUERY */
 
 @media (max-device-width: 480px) {
@@ -163,6 +167,7 @@ footer {
     top: inherit;
     left: inherit;
     transform: none;
+    padding-top: 3rem;
   }
 
   .about-me h2,
@@ -174,11 +179,19 @@ footer {
   }
 
   .about-me p {
-    margin-bottom: 0;
+    margin-bottom: 1rem;
   }
 
-  .social ul li {
+  .contact {
+    height: 30vh;
+  }
+
+  .social {
+    display: none;
+  }
+
+  .social-mobile {
     display: block;
-    margin: 1.2rem 0.3rem;
+    font-size: 2rem;
   }
 }
