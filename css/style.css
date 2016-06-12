@@ -11,6 +11,7 @@ section:first-of-type {
 }
 
 section {
+  width: 100vw;
   position: relative;
   background: rgba(247, 247, 247, 0.9);
 }
