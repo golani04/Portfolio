@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Leonid Spival</title>
+  <title>Leonid Spivak</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
   <header>
     <nav>
+      <h1>Leonid Spivak</h1>
       <ul>
         <li>Home</li>
         <li>Projects</li>
@@ -15,33 +19,79 @@
         <li><a href="blog.html">Blog</a></li>
       </ul>
     </nav>
+
+    <section class="short-description">
+      <ul class="tags">
+        <li>Python</li>
+        <li>JavaScript</li>
+      </ul>
+
+      <div>
+        <p>
+          Shalom!
+          I'm Leonid &amp; I'm a Full Stack developer.
+          Experienced with JavaScript and Python.
+        </p>
+      </div>
+    </section>
   </header>
 
   <section class="about">
-    <h2>About me</h2>
     <div class="about-details">
-      <p>
-        My name is Leonid, I have 3+ years experience as a Full stack developer, I acuired good knowledge using Python and Javascript.
-        I like to learn my previous employment I picked used ther technology as required from working with XSLT to learning Perl.
-        Working on different projects, reading a legacy code I learned SQL, mainly MySQL (MariaDB).
-      </p>
+      <h2>About me</h2>
+      <p></p>
+    </div>
+    <div class="about-skills">
+      <h2>Skills</h2>
+      <ul>
+        <li> Python </li>
+        <li> JavaScript </li>
+        <li> HTML / CSS </li>
+        <li> Tools
+          <ul>
+            <li>GIT</li>
+            <li>JIRA</li>
+            <li>Docker</li>
+          </ul>
+        </li>
+      </ul>
     </div>
   </section>
+
   <section class="projects">
+    <h2>Projects</h2>
+
     <div>
-      <h2>Bug tracker</h2>
-      <p>I started this project is to improve my knowledge of Python and React.</p>
-      <p>As addition I want to try implementing CI/CD, Docker, microservices, Redis, Postgres</p>
+      <h3>Bug tracker</h3>
+      <p>I started this project is to improve my knowledge of Python and learn React.</p>
 
     </div>
   </section>
+
   <section class="contacts">
+    <h2>Contacts</h2>
+    <form>
+      <div>
+        <label for="sender-name">Name</label>
+        <input type="text" name="name" id="sender-name">
+      </div>
+      <div>
+        <label for="sender-email">Email</label>
+        <input type="text" name="email" id="sender-email">
+      </div>
+      <div>
+        <label for="sender-msg">Message</label>
+        <textarea type="text" name="msg" id="sender-msg"></textarea>
+      </div>
+      <button type="button">Send me a message</button>
+    </form>
     <ul>
       <li>LinkedIn</li>
       <li>Github</li>
       <li>Using Mailgun to send emails</li>
     </ul>
   </section>
-  
+
 </body>
+
 </html>
